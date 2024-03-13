@@ -14,23 +14,17 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        "accent-1": "rgb(52, 91, 182)",
-        "accent-2": "rgb(246, 222, 101)",
-        "accent-7": "#333",
-        success: "#0070f3",
-        cyan: "#79FFE1",
+        primary: '#990000',
+        secondary: '#660000',
+        light: '#F6F6F6',
+        shadow: '#999999',
+        gray: {
+          DEFAULT: '#333',
+          dark: '#F6F6F6',
+        },
       },
       spacing: {
         28: "7rem",
-      },
-      letterSpacing: {
-        tighter: "-.04em",
-      },
-      fontSize: {
-        "5xl": "2.5rem",
-        "6xl": "2.75rem",
-        "7xl": "4.5rem",
-        "8xl": "6.25rem",
       },
       boxShadow: {
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",

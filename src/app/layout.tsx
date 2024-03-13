@@ -1,13 +1,16 @@
-import Footer from "@/app/_components/footer";
+// src/app/layout.tsx
+
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Mulish } from "next/font/google";
 
 import "./globals.css";
-import Header from "./_components/header";
+import Header from "@/app/_components/Header";
+import Footer from "@/app/_components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Mulish({ subsets: ["latin"] });
 
+// TODO: Default metadata
 export const metadata: Metadata = {
   title: `So interesting ${CMS_NAME}`,
   description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
@@ -43,7 +46,7 @@ export default function RootLayout({
         />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={inter.className}>
+      <body className={font.className}>
         <Header />
         <div className="min-h-screen">{children}</div>
         <Footer />
