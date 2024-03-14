@@ -4,23 +4,10 @@ import Hero from "@/app/_components/sections/Hero";
 import Prefooter from "@/app/_components/sections/Prefooter";
 import TeamMembers from "@/app/_components/sections/TeamMembers";
 import Services from "@/app/_components/sections/Services";
-import PricingCard from "@/app/_components/sections/PricingCard";
 import ExpertAnswerKeyQuestions from "@/app/_components/sections/ExpertAnswerKeyQuestions";
 import Container from "./_components/Container";
 import PricesSection from "./_components/sections/PricesSection";
 
-
-// export default function Index() {
-
-//   return (
-//     <main>
-//       <Hero />
-//       <Container>
-//       </Container>
-//       <Prefooter />
-//     </main>
-//   );
-// }
 
 export default function Index(props: any) {
 
@@ -34,16 +21,10 @@ export default function Index(props: any) {
 
       <TeamMembers />
 
-
-
       <Services />
-
 
       <PricesSection />
 
-
-      {/* <Testimonial /> */}
-      {/* <AIContacts /> */}
       <ExpertAnswerKeyQuestions />
 
       <Prefooter />

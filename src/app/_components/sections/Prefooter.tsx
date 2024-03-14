@@ -13,10 +13,10 @@ const Prefooter = () => {
                             alt="AppFutura Top 10 IT companies in Cyprus" width={382 / 2} height={344 / 2} />
                         </a>
                     </div>
-                    <div>
+                    <div className='text-center'>
                         <h2><strong>Free</strong> consultation about how to start your Website or App</h2>
                         <p className="pt-6"><a href="/contact-us" type="button" className="btn" >Contact Us Now</a></p>
-                        <p className="pt-6">Free reasearch for complex cases with in <strong>12 hours</strong></p>
+                        <p className="pt-6">Free reasearch with in <strong>24 hours</strong> for complex cases</p>
                     </div>
                     <div>
                         <a href="/payment"><Image src="/images/stripe-powered-payments.webp" className="m-auto"

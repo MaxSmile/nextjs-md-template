@@ -10,7 +10,7 @@ export default function Services() {
     return (
         <section id="services">
             <Container>
-                <div className="heading blackheading">
+                <div className="heading mx-auto">
                     <h2>Partner with Us for High-Impact Outsourcing Solutions</h2>
                 </div>
                 <div id="details" className={`cursor-pointer mb-8 text-md max-w-3xl mx-auto ${openDetails ? '' : 'line-clamp-2'}`} onClick={() => { setOpenDetails(!openDetails) }}>

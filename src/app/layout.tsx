@@ -1,6 +1,7 @@
 // src/app/layout.tsx
 
 import SupportUkraineBanner from "react-support-ukraine-banner";
+import { TrackingHeadScript } from '@phntms/next-gtm';
 import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
 
@@ -36,18 +37,13 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-
-        <link
-          rel="mask-icon"
-          href="/safari-pinned-tab.svg"
-          color="#000000"
-        />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="msapplication-config"
           content="/browserconfig.xml"
         />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <TrackingHeadScript id={"GTM-KQHMWKC"} />
       </head>
       <body className={font.className}>
         <a href="#maincontent" className="skip-link">Skip to main content</a>
