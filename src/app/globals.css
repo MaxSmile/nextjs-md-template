@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*:focus {
+    border: 1px dotted silver;
+}
+
 card {
     @apply bg-white shadow-md rounded-3xl;
     @apply overflow-hidden transition-all duration-500 hover:shadow-[0_0_25px_#979797];
@@ -21,6 +26,38 @@ html {
 }
 body {
     background: #fff;
+}
+
+h1, h2, h3 {
+    @apply font-extrabold text-secondary ;
+}
+
+.heading {
+    @apply mb-10 lg:mb-14 sm:mb-4 text-center;
+}
+
+.heading h1 {
+    @apply mb-3 text-3xl;
+}
+
+.heading h2 {
+    @apply text-2xl;
+}
+
+.heading h3 {
+    @apply text-xl;
+}
+
+.heading p {
+    @apply text-xl text-gray-600;
+}
+
+a {
+    hover:text-primary;
+}
+
+.blackheading {
+    @apply text-xl text-black text-left; 
 }
 
  /* Header */
@@ -44,20 +81,4 @@ header .menus>ul li>a {
 
 header .menus>ul li>a.active {
     @apply text-secondary lg:scale-110;
-}
-
-header .menus .submenu {
-    @apply invisible z-50 mt-5 hidden grid-cols-1 gap-x-4 whitespace-nowrap rounded-lg py-3 text-sm font-medium text-black opacity-0 transition-all dark:text-white lg:absolute lg:top-full lg:left-1/2 lg:grid lg:min-w-[480px] lg:-translate-x-1/2 lg:grid-cols-2 lg:bg-[#F0F4F7] lg:shadow-lg lg:dark:bg-gray-dark;
-}
-
-.submenu {
-    @apply group-hover:visible group-hover:mt-0 group-hover:grid group-hover:opacity-100;
-}
-
-header .menus .submenu a {
-    @apply block py-2.5 px-8 transition hover:text-secondary lg:px-5 hover:lg:scale-105;
-}
-
-header .menus .submenu a.active {
-    @apply text-secondary lg:scale-105;
 }

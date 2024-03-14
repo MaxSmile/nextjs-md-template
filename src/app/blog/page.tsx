@@ -8,7 +8,7 @@ import { BlogsList } from "../_components/blogs/BlogsList";
 // import Pagination from "./Pagination";
 
 
-const title = `Blogs!`;
+const title = `Our Blogs`;
 type Params = {
   params: {
     page: string;
@@ -46,7 +46,6 @@ export default async function BlogsListPage({ params }: Params) {
   if (!!page) {
     return notFound();
   }
-
 
   return (
     <main>
