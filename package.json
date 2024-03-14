@@ -25,7 +25,8 @@
     "react-dom": "^18",
     "react-support-ukraine-banner": "^1.1.5",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -36,5 +37,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "version": "0.0.16"
+  "version": "0.0.17"
 }
