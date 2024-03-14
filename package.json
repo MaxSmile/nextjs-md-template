@@ -21,6 +21,7 @@
     "react": "^18",
     "react-animate-height": "^3.2.3",
     "react-bootstrap-icons": "^1.11.3",
+    "react-calendly": "^4.3.0",
     "react-dom": "^18",
     "react-support-ukraine-banner": "^1.1.5",
     "remark": "^15.0.1",
@@ -35,5 +36,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "version": "0.0.15"
+  "version": "0.0.16"
 }
