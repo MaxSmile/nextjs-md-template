@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { MAIN_MENU } from "@/lib/constants";
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import MenuIconOpen from './MenuIconOpen';
 import MenuIconClose from './MenuIconClose';
 import Container from './Container';

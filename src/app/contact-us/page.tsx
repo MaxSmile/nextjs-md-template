@@ -12,7 +12,7 @@ import Prefooter from '../_components/sections/Prefooter';
 const ContactUsPage = () => {
 
     return (
-        <>
+        <main>
             <Head>
                 <title>Contact Us - Vasilkoff</title>
                 <meta
@@ -85,7 +85,7 @@ const ContactUsPage = () => {
             <Prefooter />
 
 
-        </>
+        </main>
     );
 };
 

@@ -1,18 +1,19 @@
-// src/app/_components/footer.tsx
+// src/app/_components/Footer.tsx
 
 import Link from 'next/link';
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../../version.js";
 import Container from './Container';
+import { FOOTER_MENU } from '@/lib/constants';
  
-// import CSE from '../helpers/CSE.js';
+import CSE from './CSE';
 
 
 const Footer = () => {
 
   return (
     <>
-      {/* <CSE /> */}
+      <CSE />
       <footer className="pt-14 bg-black mt-20 lg:pt-[100px] text-light text-base">
         <Container className="grid gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-3 max-w-6xl mx-auto pb-24">
           <div>
@@ -20,36 +21,13 @@ const Footer = () => {
               <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
             </p>
             <ul className="flex flex-col gap-3 font-bold">
-              <li>
-                <Link href="/read-fast" className="inline-block transition hover:text-shadow ">
-                  Read Fast
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="inline-block transition hover:text-shadow ">
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link href="/search" className="inline-block transition hover:text-shadow ">
-                  Search
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact-us" className="inline-block transition hover:text-shadow ">
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/html2md" className="inline-block transition hover:text-shadow ">
-                  HTML to Markdown Converter
-                </Link>
-              </li>
-              <li>
-                <Link href="/md2html" className="inline-block transition hover:text-shadow ">
-                  Markdown to HTML Converter
-                </Link>
-              </li>
+              {FOOTER_MENU.map((item, index) => (
+                <li key={index}>
+                  <Link href={item.link} className="inline-block transition hover:text-shadow ">
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
