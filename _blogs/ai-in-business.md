@@ -1,5 +1,5 @@
 ---
-date: "September 7, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "AI in Business: How SmartAIChats & AI-Driven Apps Boost ROI"
 subtitle: "Unveil the power of AI-driven applications. Learn how AI-powered business solutions elevate ROI and efficiency."
 description: "Discover the transformative power of AI with SmartAIChats – a leading AI-powered LiveChat widget. Dive into AI-driven mobile apps, business applications, and understand their unparalleled potential for startups and SMEs."

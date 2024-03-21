@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "The Importance of Data Security in Outsourcing and Outstaffing mobile apps and web-development"
 subtitle: "prioritizing data protection"
 description: "Prioritizing data protection in outsourced and outstaffed mobile apps and web-development processes."

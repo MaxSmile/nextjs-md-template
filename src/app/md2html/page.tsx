@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react';
 import { remark } from "remark";
 import html from "remark-html";
 import Container from '../_components/Container';
-import Link from 'next/link';
 import { MD_EXAMPLE } from '@/lib/constants';
+import OtherServicesAndTools from '../_components/OtherServicesAndTools';
 
 const Md2HtmlPage = () => {
     const [markdownInput, setMarkdownInput] = useState('');
@@ -80,12 +80,7 @@ const Md2HtmlPage = () => {
                         Reset
                     </button>
                 </div>
-                <p className="my-5">Check out our other convertion tools:
-                    <ul>
-                        <li><Link href="/rich-text2md" className="underline text-primary">Rich Text to Markdown</Link> </li>
-                        <li><Link href="/html2md" className="underline text-primary">HTML to Markdown</Link></li>
-                    </ul>
-                </p>
+                <OtherServicesAndTools exceptionLink="/md2html" />
             </Container>
         </main>
     );

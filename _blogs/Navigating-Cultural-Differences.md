@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Navigating Cultural Differences in Outsourcing and Outstaffing mobile apps and web-development"
 subtitle: "cultural distinctions in outsourcing"
 description: "Managing cultural distinctions in outsourcing and outstaffing mobile apps and web-development."

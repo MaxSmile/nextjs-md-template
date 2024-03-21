@@ -1,5 +1,4 @@
-export const EXAMPLE_PATH = "blog-starter";
-export const CMS_NAME = "UAANT";
+
 export const MAIN_MENU = [
   { title: "Home", link: "/#maincontent" },
   { title: "Team", link: "/#team" },
@@ -36,6 +35,20 @@ As an example, here's a link to [Example Site](https://example.com).
 * Item Two
 * Item Three
 `;
+
+export const workingHoursColorClass = "bg-green-500";
+export const sleepingHoursColorClass = "bg-red-500";
+export const lateEveningHoursColorClass = "bg-yellow-500";
+export const earlyMorningHoursColorClass = "bg-yellow-500";
+export const defaultHoursColorClass = "bg-red-300";
+
+export const hourSettings = {
+  workingHours: { start: 9, end: 18 },
+  evening: { start: 18, end: 22 },
+  morning: { start: 7, end: 9 },
+  sleeping: { start: 23, end: 7 }
+};
+
 
 export const HOME_OG_IMAGE_URL =
   "https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg";

@@ -8,6 +8,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import html2md from 'html-to-md';
 import Link from 'next/link';
+import OtherServicesAndTools from '../_components/OtherServicesAndTools';
 
 const RichText2MdPage = () => {
   const [markdownOutput, setMarkdownOutput] = useState('');
@@ -97,13 +98,7 @@ const RichText2MdPage = () => {
             </div>
           </div>
         )}
-        <div className="my-5">
-          <p>Check out our other conversion tools:</p>
-          <ul>
-            <li><Link href="/md2html" className='underline text-primary'>Markdown to HTML</Link></li>
-            <li><Link href="/html2md" className='underline text-primary'>HTML to Markdown</Link></li>
-          </ul>
-        </div>
+        <OtherServicesAndTools exceptionLink="/rich-text2md" />
       </Container>
     </main>
   );

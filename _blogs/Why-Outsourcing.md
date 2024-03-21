@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Why Outsourcing mobile apps and web-development Can Benefit Your Business"
 subtitle: "Rewards of Outsourced mobile apps and web-development"
 description: "How Your Business Can Reap the Rewards of Outsourced mobile apps and web-development."

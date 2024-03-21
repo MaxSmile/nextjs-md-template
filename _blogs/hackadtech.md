@@ -1,5 +1,5 @@
 ---
-date: "November 26, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Vasilkoff's AI-Bridge Triumph at HackAdTech‘23"
 subtitle: "Bridging AI and Social Media: A Revolutionary Tool from Vasilkoff"
 description: "At HackAdTech‘23, Vasilkoff unveils AI-Bridge, an innovative tool linking AI with social media chats, securing the second prize."

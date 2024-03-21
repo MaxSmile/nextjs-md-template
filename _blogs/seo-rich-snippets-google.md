@@ -1,5 +1,5 @@
 ---
-date: "May 30, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Step-by-Step: Implementing Structured Data for Better SEO"
 subtitle: "SEO Rich Snippets for Google"
 description: "While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort"

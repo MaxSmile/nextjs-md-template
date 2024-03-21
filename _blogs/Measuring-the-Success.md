@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Key Metrics for Measuring the Success of Outsourced mobile apps and web-development Projects"
 subtitle: "indicators to measure the success of mobile apps and web-development"
 description: "Important indicators to measure the success of mobile apps and web-development projects that are outsourced."

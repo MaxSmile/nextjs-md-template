@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "How to Choose the Right Outsourcing Company for Your mobile apps and web-development Needs"
 subtitle: "outsourcing partner for your requirements"
 description: "Selecting the ideal mobile apps and web-development outsourcing partner for your requirements."

@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "How to Ensure Quality When Outsourcing or Outstaffing mobile apps and web-development"
 subtitle: "guarantee quality when outsourcing"
 description: "Ways to guarantee quality when outsourcing or outstaffing mobile apps and web-development."

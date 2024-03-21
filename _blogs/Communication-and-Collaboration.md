@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Maximizing Communication and Collaboration with Outsourced Development Teams"
 subtitle: "enhancing interaction and teamwork"
 description: "Enhancing interaction and teamwork in outsourced mobile apps and web-development projects."

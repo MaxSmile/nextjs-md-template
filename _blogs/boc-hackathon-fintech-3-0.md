@@ -1,5 +1,5 @@
 ---
-date: "May 30, 2020"
+date: "2024-03-20T00:00:00Z"
 title: "A Remarkable Achievement: Vasilkoff at BOC Hackathon Fintech 3.0"
 subtitle: "BOC Hackathon Fintech 3.0: 2nd prise for Team Vasilkoff"
 description: "Team Vasilkoff's innovative solution, SmartWallet, secures the 2nd prize at the prestigious BOC Hackathon Fintech 3.0 event in Cyprus."

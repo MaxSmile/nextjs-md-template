@@ -1,5 +1,5 @@
 ---
-date: "August 3, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "7 Essential UI Design Tips for Better Typography and Spacing"
 subtitle: "A comprehensive guide to refining your User Interface design skills with proven techniques."
 description: "Unlock the potential of your UI design with our seven essential tips. Learn the importance of line height, letter spacing, text alignment, text width, hierarchy, spacing, and consistency."

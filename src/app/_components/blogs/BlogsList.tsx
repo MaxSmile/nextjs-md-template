@@ -1,4 +1,4 @@
-import { Blog } from "@/interfaces/blog";
+import { Blog } from "@/interfaces/docTypes";
 import { BlogPreviewCard } from "./BlogPreviewCard";
 
 export function BlogsList({ blogs }: {

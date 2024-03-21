@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "The Pros and Cons of Outstaffing mobile apps and web-development"
 subtitle: "externalizing mobile apps and web-development"
 description: "Evaluating the advantages and drawbacks of externalizing mobile apps and web-development."

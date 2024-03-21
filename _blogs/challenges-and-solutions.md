@@ -1,5 +1,5 @@
 ---
-date: "March 16, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "Common Challenges and Solutions for Outsourcing mobile apps and web-development Projects"
 subtitle: "outsourcing mobile apps and web-development projects"
 description: "Typical difficulties and remedies for outsourcing mobile apps and web-development projects."

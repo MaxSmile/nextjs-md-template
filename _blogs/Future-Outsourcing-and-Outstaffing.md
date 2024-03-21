@@ -1,5 +1,5 @@
 ---
-date: "March 17, 2023"
+date: "2024-03-20T00:00:00Z"
 title: "The Future of mobile apps and web-development Outsourcing and Outstaffing: Trends to Watch"
 subtitle: "trends to observe in outsourcing"
 description: "Upcoming trends to observe in outsourcing and outstaffing for mobile apps and web-development."

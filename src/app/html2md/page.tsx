@@ -8,7 +8,7 @@ import BtnClose from '../_components/BtnClose';
 import Markdown from 'react-markdown';
 import Container from '../_components/Container';
 import { HTML_EXAMPLE } from '@/lib/constants';
-import Link from 'next/link';
+import OtherServicesAndTools from '../_components/OtherServicesAndTools';
 
 
 const Html2MdPage = () => {
@@ -115,12 +115,7 @@ const Html2MdPage = () => {
                         </div>
                     </div>
                 )}
-                <p className="my-5">Check out our other convertion tools:
-                    <ul>
-                        <li><Link href="/rich-text2md" className="underline text-primary">Rich Text to Markdown</Link> </li>
-                        <li><Link href="/md2html" className="underline text-primary">Markdown to HTML</Link></li>
-                    </ul>
-                </p>
+                <OtherServicesAndTools exceptionLink="/html2md" />
             </Container>
         </main>
     );
