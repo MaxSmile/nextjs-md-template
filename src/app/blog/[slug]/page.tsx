@@ -18,13 +18,10 @@ export default async function BlogPage({ params }: Params) {
 
   return (
     <main>
+      <PostHeader blog={blog} />
       <Container>
         <article className="mb-32">
-          <PostHeader
-            title={blog.title}
-            picture={blog.picture}
-            date={blog.date}
-          />
+          
           <PostBody content={content} />
         </article>
       </Container>

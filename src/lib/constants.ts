@@ -40,7 +40,7 @@ export const workingHoursColorClass = "bg-green-500";
 export const sleepingHoursColorClass = "bg-red-500";
 export const lateEveningHoursColorClass = "bg-yellow-500";
 export const earlyMorningHoursColorClass = "bg-yellow-500";
-export const defaultHoursColorClass = "bg-red-300";
+export const defaultHoursColorClass = "bg-gray-200";
 
 export const hourSettings = {
   workingHours: { start: 9, end: 18 },

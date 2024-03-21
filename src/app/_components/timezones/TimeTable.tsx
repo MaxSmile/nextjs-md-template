@@ -3,23 +3,39 @@ import { useState } from "react";
 import TimezoneSelect, { ITimezone, ITimezoneOption } from 'react-timezone-select';
 import TimeCell from "./TimeCell";
 
-export default function TimeTable() {
+const getTimeZoneAbbreviated = (date: Date): string => {
+    const match = date.toString().match(/\((.+)\)/);
+    const timeZoneString = match ? match[1] : "";
+    return timeZoneString.includes(" ")
+        ? timeZoneString.split(" ").map((word) => word[0]).join("")
+        : timeZoneString;
+};
 
-    const [selectedTimezones, setSelectedTimezones] = useState<ITimezone[]>([]);
-    const [selectedTimezone, setSelectedTimezone] = useState<ITimezone>(
-        Intl.DateTimeFormat().resolvedOptions().timeZone
-    )
+export default function TimeTable() {
+    const myTime = new Date();
+    
+    const myTimezoneOption: ITimezoneOption = {
+        value: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        label: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        abbrev: getTimeZoneAbbreviated(myTime),
+        // Use 'timeZoneName' option from 'resolvedOptions'
+        altName: Intl.DateTimeFormat(undefined, { timeZoneName: 'long' }).resolvedOptions().timeZoneName,
+        offset: -myTime.getTimezoneOffset() / 60
+    };
+    
+    // Define the state with the correct type
+    const [selectedTimezones, setSelectedTimezones] = useState<ITimezone[]>([myTimezoneOption]);
+    const [selectedTimezone, setSelectedTimezone] = useState<ITimezone>(myTimezoneOption);
     const hoursTitles = Array.from({ length: 24 }, (_, i) => i);
 
     const addTimezone = () => {
-        if (selectedTimezone) {
-            setSelectedTimezones(prev => [...prev, selectedTimezone]);
-            setSelectedTimezone(''); // Reset the selection
+        if (selectedTimezone && !selectedTimezones.includes(selectedTimezone)) {
+            setSelectedTimezones((prev) => [...prev, selectedTimezone]);
         }
     };
 
     const removeTimezone = (index: number) => {
-        setSelectedTimezones(current => current.filter((_, i) => i !== index));
+        setSelectedTimezones((current) => current.filter((_, i) => i !== index));
     };
 
     const MinusIcon = () => (
@@ -45,7 +61,7 @@ export default function TimeTable() {
                     <tr>
                         <th>Time Zone</th>
                         <th colSpan={hoursTitles.length}>Hours</th>
-                        <th>Actions</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -57,7 +73,7 @@ export default function TimeTable() {
                                     <tr key={tzIndex}>
                                         <td className="font-bold text-gray-700 text-center text-sm border-r border-gray-800"
                                             title={timezone.label}
-                                        >{timezone.abbrev} - {(+(timezone.offset || 0) < 0) ? "GMT" + timezone.offset : "GMT+" + timezone.offset}</td>
+                                        >{timezone.abbrev}&nbsp;-&nbsp;{(+(timezone.offset || 0) < 0) ? "GMT" + timezone.offset : "GMT+" + timezone.offset}</td>
                                         {hoursTitles.map(hour => (
                                             <TimeCell key={`${tzIndex}-${hour}`} hour={hour} timezone={timezone} />
                                         ))}

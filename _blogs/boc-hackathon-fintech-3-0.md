@@ -1,9 +1,9 @@
 ---
-date: "2024-03-20T00:00:00Z"
+date: "2023-09-20T00:00:00Z"
 title: "A Remarkable Achievement: Vasilkoff at BOC Hackathon Fintech 3.0"
 subtitle: "BOC Hackathon Fintech 3.0: 2nd prise for Team Vasilkoff"
 description: "Team Vasilkoff's innovative solution, SmartWallet, secures the 2nd prize at the prestigious BOC Hackathon Fintech 3.0 event in Cyprus."
-picture: "/images/boc-hackathon3.jpg"
+picture: "/assets/blog/boc-hackathon3.webp"
 time: "2 min"
 ---
 When it comes to cutting-edge Fintech solutions, Vasilkoff has always been at the forefront, as our latest accomplishment at the BOC Hackathon Fintech 3.0 proves. This event, hosted from October 18th to 20th at the IDEA Innovation Center in Nicosia, brought together coders and startups to develop Minimum Viable Products (MVPs) for Fintech innovation.

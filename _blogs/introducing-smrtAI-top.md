@@ -3,7 +3,7 @@ date: "2024-03-20T00:00:00Z"
 title: "Introducing smrtAI.top: Empowering Businesses with Intelligent Live Chat and Customizable Chatbots"
 subtitle: "Revolutionizing Customer Engagement: Introducing **smrtAI.top** - Your Intelligent Live Chat and Customizable Chatbot Solution"
 description: "Introducing smrtAI.top: The game-changing solution that empowers businesses to automate customer interactions, provide personalized support, and reach customers across multiple channels."
-picture: "/assets/images/ofc.png"
+picture: "/assets/blog/smrtAI.webp"
 time: "1 min"
 ---
 We are thrilled to announce that Vasilkoff Cy Ltd, a trusted provider of mobile apps and web-development services, is embarking on an exciting new project - [smrtAI.top](https://smrtAI.top)
