@@ -26,6 +26,7 @@
     "react-dom": "^18",
     "react-markdown": "^9.0.1",
     "react-support-ukraine-banner": "^1.1.5",
+    "react-timezone-select": "^3.2.3",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
@@ -40,5 +41,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "version": "0.0.22"
+  "version": "0.0.23"
 }
