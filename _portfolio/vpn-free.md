@@ -9,7 +9,7 @@ categories:
 
 title: "Easy VPN Free"
 link: "GitHub"
-picture: "/images/vpn-free.png"
+picture: "/assets/portfolio/vpn-free.webp"
 slug: "vpn-free"
 url: "https://github.com/MaxSmile/EasyVPN-Free"
 extra: ""
@@ -22,6 +22,3 @@ One of the key features of Easy VPN Free is its user-friendly interface, which m
 Another advantage of Easy VPN Free is that it is open-source, which means that anyone can view and contribute to the codebase on GitHub. This makes it a transparent and trustworthy solution for anyone who values their online privacy and wants to ensure that their VPN provider is not logging their internet activity. Additionally, because it is open-source, developers can contribute to the app's development and improve its functionality and security over time.
 
 Please, learn Easy VPN Privacy Policy here: [https://vasilkoff.com/easy-vpn-privacy-policy](/easy-vpn-privacy-policy)
-
-`,
-    },

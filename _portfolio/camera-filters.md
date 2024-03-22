@@ -7,9 +7,9 @@ categories:
 
 title: "CAMERA FILTERS"
 link: "iOS App"
-picture: "/images/camera-filters.png"
+picture: "/assets/portfolio/camera-filters.webp"
 url: "#"
-extra: ""
+extra: "Closed"
 description: "Camera Filters is a native iOS app developed by Vasilkoff that offers users a variety of filters to enhance their photos. With a user-friendly interface and a wide range of filter options, this app is perfect for anyone looking to add an extra touch of creativity to their photos."
 ---
 The Camera Filters app developed by Vasilkoff for iOS is a powerful photo editing tool that allows users to apply various filters and effects to their photos in real-time. With the app's native code, users can quickly and easily add a wide range of filters to their photos, including vintage, black and white, sepia, and many others.

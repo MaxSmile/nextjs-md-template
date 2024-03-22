@@ -1,13 +1,13 @@
 ---
 type: "projects"
-date: "2024-03-20T00:00:00Z"
+date: "2022-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
  
 title: "WISH MANIFESTATION"
 link: "iOS and Android apps"
-picture: "/images/wish-manifistation.png"
+picture: "/assets/portfolio/wish-manifistation.webp"
 slug: "wish-manifistation"
 url: "#"
 extra: ""

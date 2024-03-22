@@ -39,6 +39,3 @@ Vasilkoff.info is more than a project; it's a testimony to our expertise in AI a
 ### Explore Vasilkoff.info
 
 We invite you to explore the innovative world of [Vasilkoff.info](https://vasilkoff.info/). Experience firsthand how AI can transform the web experience and stay tuned for more trailblazing projects from Vasilkoff Ltd."
-`
-
-    },

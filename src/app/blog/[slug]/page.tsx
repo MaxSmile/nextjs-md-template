@@ -3,22 +3,22 @@ import { notFound } from "next/navigation";
 import { getAllBlogs, getBlogBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/Container";
-import { PostHeader } from "@/app/_components/blogs/PostHeader";
-import { PostBody } from "@/app/_components/blogs/PostBody";
+import { PostHeader } from "@/app/_components/posts/PostHeader";
+import { PostBody } from "@/app/_components/posts/PostBody";
 
 
 export default async function BlogPage({ params }: Params) {
-  const blog = getBlogBySlug(params.slug);
+  const article = getBlogBySlug(params.slug);
 
-  if (!blog) {
+  if (!article) {
     return notFound();
   }
 
-  const content = await markdownToHtml(blog.content || "");
+  const content = await markdownToHtml(article.content || "");
 
   return (
     <main>
-      <PostHeader blog={blog} />
+      <PostHeader article={article} />
       <Container>
         <article className="mb-32">
           

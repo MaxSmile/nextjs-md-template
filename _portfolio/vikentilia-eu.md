@@ -58,6 +58,3 @@ VIKENTILIA, driven by advanced web and app development, empowers both buyers and
 **Commitment to Excellence in Web and App Development:**
 
 VIKENTILIA stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web and app development. The platform exceeds expectations, providing a transformative solution for the Cyprus real estate market.
-
-`,
-    },

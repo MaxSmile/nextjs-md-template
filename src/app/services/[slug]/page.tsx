@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/Container";
-import { PostHeader } from "@/app/_components/blogs/PostHeader";
-import { PostBody } from "@/app/_components/blogs/PostBody";
+import { PostHeader } from "@/app/_components/posts/PostHeader";
+import { PostBody } from "@/app/_components/posts/PostBody";
 import { getAllServices, getServiceBySlug } from "@/lib/api";
 
 

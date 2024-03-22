@@ -9,8 +9,6 @@ export type Blog = {
   time: string;
   description: string;
   content: string;
-  preview?: boolean;
-
 };
 
 export type Portfolio = {
@@ -18,11 +16,13 @@ export type Portfolio = {
   title: string;
   type: string;
   date: string;
+  categories: string[];
+  link: string;
   picture: string;
-  time: string;
+  url: string;
+  extra: string;
   description: string;
-  content: string;
-  preview?: boolean;
+  content?: string;
 
 };
 
@@ -35,7 +35,6 @@ export type Service = {
   time: string;
   description: string;
   content: string;
-  preview?: boolean;
 
 };
 
@@ -48,6 +47,5 @@ export type Member = {
   time: string;
   description: string;
   content: string;
-  preview?: boolean;
 
 };

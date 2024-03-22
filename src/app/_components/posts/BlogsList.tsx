@@ -1,5 +1,5 @@
 import { Blog } from "@/interfaces/docTypes";
-import { BlogPreviewCard } from "./BlogPreviewCard";
+import BlogCard from "./BlogCard";
 
 export function BlogsList({ blogs }: {
   blogs: Blog[];
@@ -8,13 +8,11 @@ export function BlogsList({ blogs }: {
   return (
     <section>
       <div className="grid gap-x-[30px] gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-        {blogs && blogs.map((post) => (
-          <BlogPreviewCard
-            key={post.slug}
-            title={post.title}
-            picture={post.picture}
+        {blogs && blogs.map((post, index) => (
+          <BlogCard
+            key={index}
+            blog={post}
             slug={post.slug}
-            description={post.description}
           />
         ))}
         {!blogs && <p>Nothing to show...</p>}

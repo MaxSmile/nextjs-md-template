@@ -1,6 +1,6 @@
 ---
 type: "projects"
-date: "2024-03-20T00:00:00Z"
+date: "2022-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
@@ -9,7 +9,7 @@ categories:
 
 title: "Voteme App"
 link: "iOS and Android apps"
-picture: "/images/votemee.png"
+picture: "/assets/portfolio/votemee.webp"
 slug: "voteme"
 url: "#"
 extra: ""

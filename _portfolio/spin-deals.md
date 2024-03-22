@@ -7,7 +7,7 @@ categories:
 
 title: "SPIN DEALS APP"
 link: "PlayMarket and AppStore"
-picture: "/images/spin-deals.png"
+picture: "/assets/portfolio/spin-deals.webp"
 slug: "spin-deals"
 url: "https://play.google.com/store/apps/details?id=com.spindealsapp"
 extra: ""

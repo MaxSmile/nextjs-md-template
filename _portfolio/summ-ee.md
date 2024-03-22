@@ -57,6 +57,3 @@ SUMM.EE, driven by advanced WordPress and WooCommerce development, empowers both
 **Commitment to Excellence in Web Development and E-Commerce:**
 
 SUMM.EE stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web development and e-commerce. The platform exceeds expectations, providing a transformative solution for the online gifting landscape.
-
-`,
-    },

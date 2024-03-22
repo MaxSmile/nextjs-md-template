@@ -7,7 +7,7 @@ categories:
 
 title: "smrtAI"
 link: "smrtAI - LiveChat AI powered chatbot"
-picture: "/assets/images/gallery-5.png"
+picture: "/assets/portfolio/smrtAI.webp"
 url: "https://smrtAI.top/"
 extra: ""
 description: "Experience free and seamless, AI-powered customer support on your website with our easy to install live chat widget."

@@ -35,4 +35,4 @@ The hackathon was not just a platform for competition but also an incubator of i
 We believe in the power of collaboration to drive innovation. As we integrate these new ideas into SmartAIChats, we invite you to join us in this journey. Whether you're a business looking to enhance your customer interaction through AI chatbots, or a tech enthusiast eager to contribute ideas, we are open to exploring potential partnerships.
 
 ### Get in Touch
-For more information about SmartAIChats, or if you're interested in discussing potential collaborations, don't hesitate to reach out. Contact us at [Vasilkoff Ltd](https://vasilkoff.com/contact-us). Let's create the future of AI-driven customer interaction together.
+For more information about SmartAIChats, or if you're interested in discussing potential collaborations, don't hesitate to reach out using [Contact us page](https://vasilkoff.com/contact-us) details where you will find all the necessary information. Let's create the future of AI-driven customer interaction together.

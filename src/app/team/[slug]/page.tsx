@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/Container";
-import { PostBody } from "@/app/_components/blogs/PostBody";
+import { PostBody } from "@/app/_components/posts/PostBody";
 import {  getAllMembers, getMemberBySlug } from "@/lib/api";
-import { MemberHeader } from "@/app/_components/blogs/MemberHeader";
+import { MemberHeader } from "@/app/_components/posts/MemberHeader";
 
 
 export default async function MemberPage({ params }: Params) {

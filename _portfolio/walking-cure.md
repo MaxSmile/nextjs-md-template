@@ -8,7 +8,7 @@ categories:
 
 title: "WALKING CURE"
 link: "walkingcure.com"
-picture: "/images/walking-cure.png"
+picture: "/assets/portfolio/walking-cure.webp"
 slug: "walking-cure"
 url: "https://garantex.io/"
 extra: ""
@@ -24,5 +24,4 @@ To make the website user-friendly, we made sure to implement a responsive design
 
 In addition, we added a contact form that allows visitors to get in touch with the clinic easily. The form collects important information such as the visitor's name, email address, and message, which is then forwarded to the clinic's email address.
 
-Overall, creating a customized WordPress website for Walking Cure required a mix of creativity, technical expertise, and attention to detail. We're proud to have delivered a website that reflects the clinic's unique approach to health and wellness and helps them connect with their target audience in a meaningful way.`,
-    },
+Overall, creating a customized WordPress website for Walking Cure required a mix of creativity, technical expertise, and attention to detail. We're proud to have delivered a website that reflects the clinic's unique approach to health and wellness and helps them connect with their target audience in a meaningful way.

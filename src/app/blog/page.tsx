@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllBlogs } from "@/lib/api";
 import Container from "@/app/_components/Container";
-import { BlogsList } from "../_components/blogs/BlogsList";
+import { BlogsList } from "../_components/posts/BlogsList";
 import Head from "next/head";
 import { Blog } from "@/interfaces/docTypes";
 // import Head from "next/head";

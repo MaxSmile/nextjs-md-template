@@ -8,7 +8,7 @@ categories:
 
 title: "STYLE TRIBUTE SELLER"
 link: "StyleTribute.com"
-picture: "/images/style-tribute.png"
+picture: "/assets/portfolio/style-tribute.webp"
 url: "https://styletribute.com/"
 extra: ""
 description: "StyleTribute Seller web app, a trusted marketplace for pre-loved luxury fashion where users can buy and sell items from top brands like Hermes and Chanel. Our in-house quality control team guarantees authenticity and quality."

@@ -1,30 +1,27 @@
+// src/app/portfolio/[slug]/page.tsx
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllBlogs, getBlogBySlug } from "@/lib/api";
+import { getAllPortfolios, getPortfolioBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/Container";
-import { PostHeader } from "@/app/_components/blogs/PostHeader";
-import { PostBody } from "@/app/_components/blogs/PostBody";
+import { PostBody } from "@/app/_components/posts/PostBody";
+import { PortfolioHeader } from "@/app/_components/posts/PortfolioHeader";
 
 
-export default async function BlogPage({ params }: Params) {
-  const blog = getBlogBySlug(params.slug);
+export default async function PortfolioPage({ params }: Params) {
+  const article = getPortfolioBySlug(params.slug);
 
-  if (!blog) {
+  if (!article) {
     return notFound();
   }
 
-  const content = await markdownToHtml(blog.content || "");
+  const content = await markdownToHtml(article.content || "");
 
   return (
     <main>
       <Container>
         <article className="mb-32">
-          <PostHeader
-            title={blog.title}
-            picture={blog.picture}
-            date={blog.date}
-          />
+          <PortfolioHeader article={article}/>
           <PostBody content={content} />
         </article>
       </Container>
@@ -39,26 +36,24 @@ type Params = {
 };
 
 export function generateMetadata({ params }: Params): Metadata {
-  const blog = getBlogBySlug(params.slug);
+  const article = getPortfolioBySlug(params.slug);
 
-  if (!blog) {
+  if (!article) {
     return notFound();
   }
 
-  const title = blog.title;
-
   return {
     openGraph: {
-      title,
-      images: [blog.picture],
+      title:article.title,
+      images: [article.picture],
     },
   };
 }
 
 export async function generateStaticParams() {
-  const blogs = getAllBlogs();
+  const portfolios = getAllPortfolios();
 
-  return blogs.map((blog) => ({
-    slug: blog.slug,
+  return portfolios.map((article) => ({
+    slug: article.slug,
   }));
 }

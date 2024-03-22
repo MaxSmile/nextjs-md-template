@@ -8,7 +8,7 @@ categories:
 
 title: "KIMFOOT"
 link: "kimfoot.com"
-picture: "/images/kimfoot.png"
+picture: "/assets/portfolio/kimfoot.webp"
 slug: "kimfoot"
 url: "https://kimfoot.com/"
 extra: ""
@@ -22,5 +22,4 @@ Their Platelet Rich Plasma (PRP) therapy is a popular holistic treatment for chr
 
 In addition to their holistic treatments, Kim Holistic Foot and Ankle Center provides a range of traditional podiatry services, including foot and ankle surgery, diabetic foot care, and sports medicine. They also offer custom orthotics and shoe fittings to help patients find the right shoes to support their feet and alleviate pain.
 
-Overall, Kim Holistic Foot and Ankle Center is committed to providing the best possible care for their patients. With their holistic approach and state-of-the-art technology, they are able to help patients achieve optimal foot and ankle health and improve their overall well-being.`,
-    },
+Overall, Kim Holistic Foot and Ankle Center is committed to providing the best possible care for their patients. With their holistic approach and state-of-the-art technology, they are able to help patients achieve optimal foot and ankle health and improve their overall well-being.

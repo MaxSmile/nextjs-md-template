@@ -23,7 +23,7 @@ const Header = (props: any) => {
 
   return (
     <header className='sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl'>
-      <Container>
+      <Container className='h-20'>
         <div className="flex items-center justify-between py-5 lg:py-0">
           <Link href="/">
             <Image src="/images/logo-vasilkoff.webp" alt="Vasilkoff logo" className="h-12" width={104} height={48} />

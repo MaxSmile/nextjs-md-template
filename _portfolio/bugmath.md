@@ -8,7 +8,7 @@ categories:
 
 title: "BUGMATH"
 link: "bugmath.com"
-picture: "/images/bugmath.png"
+picture: "/assets/portfolio/bugmath.webp"
 slug: "bugmath"
 url: "https://BUGMATH.com/"
 extra: ""

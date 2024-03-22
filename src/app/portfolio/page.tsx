@@ -6,7 +6,7 @@ import { getAllPortfolios } from '@/lib/api';
 import Container from '../_components/Container';
 
 
-const PortfolioListPage = () => {
+export default function PortfolioListPage() {
     // const [activeTab, setActiveTab] = useState<string>('all');
     const portfolios = getAllPortfolios();
     let hasPart = portfolios.map((portfolio) => {
@@ -49,63 +49,11 @@ const PortfolioListPage = () => {
 
             </Head>
 
-
             <section className="pt-12 mt-40 pb-14 md:pb-[100px]">
                 <Container>
                     <div className="heading text-center">
                         <h1>Our Portfolio</h1>
                     </div>
-
-                    {/* <div className="overflow-x-auto">
-                        <ul className="filters portfolio-filter mx-auto flex w-max gap-7 whitespace-nowrap pb-2.5 font-bold dark:text-white">
-                            <li className={`filter ${activeTab === 'all' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('all')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    All Work
-                                </button>
-                            </li>
-                            <li className={`filter ${activeTab === 'Mobile App' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('Mobile App')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    Mobile Apps
-                                </button>
-                            </li>
-                            <li className={`filter ${activeTab === 'Website' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('Website')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    Websites
-                                </button>
-                            </li>
-
-                            <li className={`filter ${activeTab === 'Crypto' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('Crypto')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    Crypto
-                                </button>
-                            </li>
-                            <li className={`filter ${activeTab === 'eCommerce' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('eCommerce')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    eCommerce
-                                </button>
-                            </li>
-                        </ul>
-                    </div> */}
 
 
                     <div className="projects mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -121,6 +69,4 @@ const PortfolioListPage = () => {
             </section>
         </div>
     );
-};
-
-export default PortfolioListPage;
+}
