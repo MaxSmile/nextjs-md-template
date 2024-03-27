@@ -1,7 +1,7 @@
 ---
 id: 1
 date: "2024-03-20T00:00:00Z"
-image: "/assets/images/design.png"
+picture: "/assets/services/design.webp"
 altImage: "Design from Vasilkoff Ltd"
 title: "UI/UX Design"
 subtitle: "Crafting Exceptional UI/UX Design: Elevating User Experience Across Platforms"

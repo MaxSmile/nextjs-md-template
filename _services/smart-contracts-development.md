@@ -1,7 +1,7 @@
 ---
 id: 4
 date: "2024-03-20T00:00:00Z"
-image: "/assets/images/smart-contracts-development.png"
+picture: "/assets/services/smart-contracts-development.webp"
 altImage: "Smart Contracts Development from Vasilkoff Ltd"
 title: "Smart Contracts Development"
 subtitle: "Use Cases of Smart Contracts Development for Your Business"

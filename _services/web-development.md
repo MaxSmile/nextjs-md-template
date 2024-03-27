@@ -1,7 +1,7 @@
 ---
 id: 2
 date: "2024-03-20T00:00:00Z"
-image: "/assets/images/web-development.png"
+picture: "/assets/services/web-development.webp"
 altImage: "Web Development from Vasilkoff Ltd"
 title: "Web Development"
 subtitle":"Unleashing Business Potential with Web Development: From Concept to Digital Success"

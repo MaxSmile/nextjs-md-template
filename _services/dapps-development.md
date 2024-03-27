@@ -1,6 +1,6 @@
 ---
 id: 5
-image: "/assets/images/dapps-development.png"
+picture: "/assets/services/dapps-development.webp"
 altImage: "Dapps Development from Vasilkoff Ltd"
 title: "Full Stack DApps Development"
 subtitle: "Discover the power of decentralized applications"

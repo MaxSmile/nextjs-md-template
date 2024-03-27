@@ -2,27 +2,14 @@ import { Blog, Member, Portfolio, Service } from "@/interfaces/docTypes";
 import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
+import { getBlogSlugs, getMemberSlugs, getPortfolioSlugs, getServiceSlugs,
+  blogsDirectory,
+  portfolioDirectory,
+  servicesDirectory,
+  membersDirectory } from "./fsGetter";
 
-const blogsDirectory = join(process.cwd(), "_blogs");
-const portfolioDirectory = join(process.cwd(), "_portfolio");
-const servicesDirectory = join(process.cwd(), "_services");
-const membersDirectory = join(process.cwd(), "_members");
 
-export function getBlogSlugs() {
-  return fs.readdirSync(blogsDirectory);
-}
 
-export function getPortfolioSlugs() {
-  return fs.readdirSync(portfolioDirectory);
-}
-
-export function getServiceSlugs() {
-  return fs.readdirSync(servicesDirectory);
-}
-
-export function getMemberSlugs() {
-  return fs.readdirSync(membersDirectory);
-}
 
 export function getBlogBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
@@ -34,13 +21,13 @@ export function getBlogBySlug(slug: string) {
 }
 
 export function getPortfolioBySlug(slug: string) {
-  const realSlug = slug.replace(/\.md$/, "");
+  // const realSlug = slug.replace(/\.md$/, "");
   //console.log("realSlug", realSlug);
-  const fullPath = join(portfolioDirectory, `${realSlug}.md`);
+  const fullPath = join(portfolioDirectory, slug);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  return { ...data, slug: realSlug, content } as Portfolio;
+  return { ...data, slug, content } as Portfolio;
 }
 
 export function getServiceBySlug(slug: string) {
@@ -65,18 +52,18 @@ export function getMemberBySlug(slug: string) {
 export function getAllBlogs(): Blog[] {
   const slugs = getBlogSlugs();
   const Blogs = slugs
-    .map((slug) => getBlogBySlug(slug))
+    .map((slug: string) => getBlogBySlug(slug))
     // sort Blogs by date in descending order
-    .sort((Blog1, Blog2) => (Blog1.date > Blog2.date ? -1 : 1));
+    .sort((Blog1: Blog, Blog2: Blog) => (Blog1.date > Blog2.date ? -1 : 1));
   return Blogs;
 }
 
 export function getAllPortfolios(): Portfolio[] {
   const slugs = getPortfolioSlugs();
   const portfolios = slugs
-    .map((slug) => getPortfolioBySlug(slug))
+    .map((slug: string) => getPortfolioBySlug(slug))
     // sort portfolios by date in descending order
-    .sort((Port1, Port2) => (Port1.date > Port2.date ? -1 : 1));
+    .sort((Port1: Portfolio, Port2: Portfolio) => (Port1.date > Port2.date ? -1 : 1));
   return portfolios;
 }
 
@@ -84,17 +71,17 @@ export function getAllPortfolios(): Portfolio[] {
 export function getAllServices(): Service[] {
   const slugs = getServiceSlugs();
   const services = slugs
-    .map((slug) => getServiceBySlug(slug))
+    .map((slug: string) => getServiceBySlug(slug))
     // sort services by date in descending order
-    .sort((Service1, Service2) => (Service1.date > Service2.date ? -1 : 1));
+    .sort((Service1: Service, Service2: Service) => (Service1.date > Service2.date ? -1 : 1));
   return services;
 }
 
 export function getAllMembers(): Member[] {
   const slugs = getMemberSlugs();
   const members = slugs
-    .map((slug) => getMemberBySlug(slug))
+    .map((slug: string) => getMemberBySlug(slug))
     // sort members by date in descending order
-    .sort((Member1, Member2) => (Member1.date > Member2.date ? -1 : 1));
+    .sort((Member1: Member, Member2: Member) => (Member1.date > Member2.date ? -1 : 1));
   return members;
 }

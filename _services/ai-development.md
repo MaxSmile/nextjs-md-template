@@ -1,6 +1,6 @@
 ---
 id: 6
-image: "/assets/images/ai-development.png"
+picture: "/assets/services/ai-development.webp"
 altImage: "AI Development from Vasilkoff Ltd"
 title: "AI & Machine Learning Development"
 subtitle: "Discover the power of AI and machine learning"

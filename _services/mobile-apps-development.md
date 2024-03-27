@@ -1,7 +1,7 @@
 ---
 id: 3
 date: "2024-03-20T00:00:00Z"
-image: "/assets/images/mobile-apps-development.png"
+picture: "/assets/services/mobile-apps-development.webp"
 altImage: "Mobile Apps Development from Vasilkoff Ltd"
 title: "Mobile Apps Development"
 subtitle: "Discover how our expertise in native iOS and Android applications and cross-platform development using Flutter can drive success in fintech, utilities, and games"

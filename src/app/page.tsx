@@ -7,9 +7,10 @@ import Services from "@/app/_components/sections/Services";
 import ExpertAnswerKeyQuestions from "@/app/_components/sections/ExpertAnswerKeyQuestions";
 import Container from "./_components/Container";
 import PricesSection from "./_components/sections/PricesSection";
+import { NextPage } from "next";
 
 
-export default function Index(props: any) {
+const IndexPage: NextPage = () => {
 
   return (
     <main className="overflow-x-hidden" id="bg">
@@ -117,3 +118,5 @@ export default function Index(props: any) {
     </main>
   );
 };
+
+export default IndexPage;

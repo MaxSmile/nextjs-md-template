@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/Container";
-import { PostHeader } from "@/app/_components/posts/PostHeader";
 import { PostBody } from "@/app/_components/posts/PostBody";
 import { getAllServices, getServiceBySlug } from "@/lib/api";
+import { ServiceHeader } from "@/app/_components/posts/ServiceHeader";
 
 
 export default async function ServicePage({ params }: Params) {
@@ -20,11 +20,8 @@ export default async function ServicePage({ params }: Params) {
     <main>
       <Container>
         <article className="mb-32">
-          <PostHeader
-            title={service.title}
-            picture={service.picture}
-            date={service.date}
-          />
+          <ServiceHeader article={service} />
+          
           <PostBody content={content} />
         </article>
       </Container>
